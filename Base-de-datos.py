@@ -41,7 +41,7 @@ class BaseDatos(Interface):
         if not self.animales:
             print("No hay animales registrados.")
         else:
-            print("\n=== Lista de animales registrados ===")
+            print("registrados:)
             for a in self.animales.values():
                 print(a)
 
